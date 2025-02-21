@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jQuery Basics</title>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
+
 <body>
-    
+    <p>click me 1</p>
+    <p>click me 2</p>
+    <p>click me 3</p>
+    <p>click me 4</p>
+    <p>click me 5</p>
+
+    <p>Click me for hide / show</p>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <!-- jQuery syntax: -->
+    <!-- $('selector').action() -->
+
+    <!-- there are three main types of selectors in jQuery 
+         1. element selector
+         2. id selector
+         3. class selector
+
+         1. Element selector -  This is an example of element selector which clicks on all p
+         $('p').click();
+
+         2. Id selector - this is an example of id selector
+         $('#second').click();
+
+         3. Class selector - this is an example of id selector
+         $('.odd').click();
+
+         other selectors
+         $('*').click() // clicks on all the elements
+         $('p.odd').click() // clicks on all the elements
+         $('p:first').click() // clicks on all the elements -->
+
+
+
+
+
+
+
+
+    <!-- External JS -->
+    <script src="/JS/script.js"></script>
+
 </body>
+
 </html>
