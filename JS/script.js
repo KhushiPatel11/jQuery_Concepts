@@ -8,5 +8,4 @@ $(document).ready(function () {
     // if we want to hide this p when i clicked on this particular p so i can use this
     $(this).hide();
   })
-
 })
