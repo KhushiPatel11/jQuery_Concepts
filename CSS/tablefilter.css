@@ -1,0 +1,32 @@
+#tableSearch {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#myTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#myTable th {
+    background-color: #f1d6d6;
+    color: black;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#myTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+#myTable tr:hover {
+    background-color: #f2f2f2;
+}
+
